@@ -4,7 +4,7 @@ Scenario: Report visitor trends during a week of operation
 
   Given: Hospital is working.
   When: Visitor enters door where sensor is present.
-  Then: Plot the trends of vistor on graph
+  Then: Plot the trends of visitor on graph
 
 Scenario: Alert when seating capacity is full
 
