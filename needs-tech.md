@@ -3,12 +3,12 @@
 Scenario: Recover across restarts of the server
 that runs the visit-counter
 
-  Given
-  When
-  Then
+  Given: Counter was initially working.
+  When: Server is restarted.
+  Then: Obtain last saved value of counter and assign to existing.
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
-  Given
-  When
-  Then
+  Given:
+  When:
+  Then:
