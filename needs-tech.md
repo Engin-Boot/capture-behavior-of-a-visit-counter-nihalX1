@@ -9,6 +9,6 @@ that runs the visit-counter
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
-  Given:
-  When:
-  Then:
+  Given: Server was online for a while before going offline.
+  When: Server goes offline.
+  Then: Obtain last saved value of counter and assign to existing.
