@@ -1,6 +1,6 @@
 # Visit-counter technical needs
 
-Scenario: Recover across restarts of the server
+Scenario: Recover across restarts of the server.
 that runs the visit-counter
 
   Given: Counter was initially working.
